@@ -15,7 +15,7 @@ $(document).ready(function(){
         titles.append('<li>' + '<a href="#">' + value.title + '</a>' + '</li>'); //displays article titles 
       }); 
       $(info.articles).each(function(index, value){
-        blogPost.append('<h2>' + value.title + '</h2>' + '<br>' +'<p>' + value.long_description + '</p>'); //displays blog titles
+        blogPost.append('<h2>' + value.title + '</h2>' + '<hr>' +'<br>' +'<p>' + value.long_description + '</p>'+ '<br>'); //displays blog titles
       });
    
      // $("#article-titles").hover(function(){
