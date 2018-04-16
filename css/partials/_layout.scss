@@ -1,0 +1,15 @@
+$font-stack: 'Questrial', sans-serif !important;
+$font-stack--header: 'Pragati Narrow', sans-serif !important;
+
+body{
+  font-family: $font-stack;
+}
+
+h1,h2,h3 {
+  font-family: $font-stack--header;
+}
+
+footer{
+  padding: 50px;
+  float: right;
+}
